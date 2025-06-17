@@ -13,4 +13,4 @@ You can see the preview of the emojis in the collection.pdf file. \
 ![{9963E027-D868-4F56-A8F4-8B4C5851E851}](https://github.com/user-attachments/assets/051bf173-0c75-4c61-b005-482fbeed1a21)
 
 If you are a developer and want to get all the emoji, then the dump.txt stores their data. \
-In the emojis\\ directory stored all imoji images.
+In the \\images\\ directory stored all imoji images.

@@ -14,7 +14,7 @@ unsafe struct Emoji
         get
         {
             fixed (Emoji* self = &this)
-                return Encoding.UTF8.GetString(self->FilePath, MAX_PATH);
+                return Marshal.PtrToStringUTF8((nint)self->FilePath)!;
         } 
         set
         {
@@ -33,7 +33,7 @@ unsafe struct Emoji
         get
         {
             fixed (Emoji* self = &this)
-                return Encoding.UTF8.GetString(self->Name, MAX_PATH);
+                return Marshal.PtrToStringUTF8((nint)self->Name)!;
         }
         set
         {
